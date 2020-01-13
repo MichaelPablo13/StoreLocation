@@ -1,0 +1,22 @@
+{
+  "name": "storelocation",
+  "version": "1.0.0",
+  "description": "Store Location with React and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Michael Silva",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.5",
+    "node-geocoder": "^3.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
